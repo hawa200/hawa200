@@ -9,4 +9,4 @@ now'''
 #we are 2 or the whole world
 #get lost...''')
 #print("c:\'Dr.Hacker")
-print(" Dr.Hacker is \n is an hacker \t1")
+print(" Dr.Hacker is \n is an hacker \t1") #comment after statement 
