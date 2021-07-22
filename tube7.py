@@ -32,3 +32,16 @@ float()
 '''
 print("======================================================================================================")
 print(10 * "dr.hacker\n  ")
+#print("enter your number")
+#inpnum = input()
+
+#print("you entered", int(inpnum)+ 10)
+
+
+print("*******************************************************************************************************")
+                                         #calculator
+print("enter first num")
+n1 = input()
+print("enter secound num")
+n2 = input()
+print("sum of these two numers is", int(n1) + int(n2))
