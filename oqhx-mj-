@@ -1,0 +1,85 @@
+int a;
+int b;
+char calSignal;
+void setup() {
+  // put your setup code here, to run once:
+
+Serial.begin(9600);
+  Serial.println("Enter the First number");
+}
+int solve(int a,int b) { 
+
+  int result;
+  switch (calSignal) {
+
+    case '+' : 
+    result = a + b; 
+    return result;
+
+    break; 
+    case '-' : 
+    result = a - b; 
+    return result;
+
+    break; 
+    case 'x' : 
+    result = a * b;
+    return result; 
+
+    break; 
+    case '/' : 
+    result = a / b;
+    return result;
+    break; 
+
+    case '*' : 
+    result = a * b;
+    return result; 
+
+    break; 
+
+    case '.' : 
+    result = a * b;
+    return result; 
+
+    break;
+
+
+    default : 
+    Serial.println("What was that? Invalid Operator");
+  }
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+ while (Serial.available()==0){}
+
+  a = Serial.parseInt(); 
+  Serial.println(" ");
+  Serial.print("you have entered : ");
+  Serial.print(a);
+  Serial.println("   Please enter an operator");
+  Serial.println("(x, * or . is allowed for multiplication, / for division, + for addition and - for subtraction)") ;
+
+  while (Serial.available() > 0){Serial.read();}
+
+
+
+  while(Serial.available()==0){} 
+//  char x=Serial.read();
+ calSignal = Serial.read();
+  Serial.println("you have entered : ");
+  Serial.print(calSignal);
+  Serial.println("Enter the second number");
+
+  while (Serial.available() > 0){Serial.read();}
+
+
+  while(Serial.available()==0){}
+  b = Serial.parseInt();
+  Serial.println(" ");
+  Serial.print("Solution = ");
+
+  Serial.print(solve(a,b)); 
+}
