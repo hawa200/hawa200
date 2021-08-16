@@ -1,0 +1,10 @@
+# print("doctor")
+# name = ["doctor", "hacker","pialot","bazaar"]   # This is known as list
+# print("The names are", name)
+# names = ["doctor", "hacker","piolet","bazaar"] # loop
+# for name in names:
+#    print("the current name is", name)
+persons = [{"name": "doctor", "location": "india", "handsome": "true", "intelligent": "may be"},
+           {"name": "hacker","location": "any where","handsome": "false", "intelligent": "yes you know that"}]
+for person in persons:
+    print("the current person is", person)
