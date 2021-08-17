@@ -1,0 +1,23 @@
+# DICTIONARY representing device
+device = {
+    "name": "doctorpc",
+    "vendor": "cisco",
+    "model": "dr.hacker210",
+    "os": "nxos",
+    "version": "10.2(5)",
+    "ip": "10.0.2.05",
+}
+
+# SIMPLE PRINT
+print("\n...........SIMPLE PRINT............")
+print("device:", device)
+print("device name:", device["name"])
+
+# PRETTY PRINT
+print("\n..........PRETTY PRINT.............")
+print(device)
+
+# FOR LOOP , NICELY FORMATTED PRINT
+print("\n...........FOR LOOP, USING F-STRING..............")
+for key, value in device.items():
+    print(f"{key:>16s} : {value}")
