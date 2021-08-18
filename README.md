@@ -4,6 +4,7 @@
 - 💞️ I’m looking to collaborate on some coding stuff.
 - 📫 How to reach me- foothack2021@gmail.com or gauravprajapat012@gmail.com
 - my blogging website :- https://techark.in/
+- my gaming discord server-- https://discord.gg/Cm242gnx  and my hacking server--- https://discord.gg/KWtSKXdq
 
 <!---
 hawa200/hawa200 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
