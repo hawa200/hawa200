@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning how to implement in coding languages and finding threads in my area networks
 - 💞️ I’m looking to collaborate on some coding stuff.
 - 📫 How to reach me- foothack2021@gmail.com or gauravprajapat012@gmail.com
-- my blogging website :- https://techark.in/
+- my blogging website :- https://www.bitcns.co/
 - my gaming discord server-- https://discord.gg/Cm242gnx  and my hacking server--- https://discord.gg/KWtSKXdq
 
 <!---
